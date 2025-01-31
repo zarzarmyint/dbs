@@ -17,9 +17,9 @@ const Navbar = () => {
             <div className="menuDiv" >
                 <ul className="menu">
                     <li><a href="/" className={useLocation().pathname === "/" ? "active" : "noactive"} >HOME</a></li>
-                    <li><a href="/"  >MEMBERSHIP</a></li>
+                    <li><a href="#"  >MEMBERSHIP</a></li>
                     <li><a href="/plan" className={useLocation().pathname === "/plan" ? "active" : "noactive"}>PLAN</a></li>
-                    <li><a href="/"  >FEEDBACK</a></li>
+                    <li><a href="#"  >FEEDBACK</a></li>
                     <li><a href="/aboutus" className={useLocation().pathname === "/aboutus" ? "active" : "noactive"}>ABOUTUS</a></li>
                 </ul>
             </div>
