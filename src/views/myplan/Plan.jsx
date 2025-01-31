@@ -7,7 +7,7 @@ import Ketoplan from '../../assets/images/ketoplan.jpg';
 const Plan = () => {
 
     return <div className="plancontainer">
-        <h2 className="planheader">YOU CAN CHOOSE PLAN TYPE</h2>
+        <h2 className="planheader">YOU CAN CHOOSE ANY PLAN TYPE</h2>
         <div className="plan">
             <div className="dietplanDiv">
                 <img src={Dietplan} alt="Dietplan" className="planimagebox" />
