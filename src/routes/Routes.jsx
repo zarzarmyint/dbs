@@ -7,7 +7,7 @@ import SignUp from '../views/singup/Signup';
 import SignIn from '../views/singin/Signin';
 import AboutUs from '../views/aboutus/Aboutus';
 import Profile from '../views/profile/Profile';
-import Plan from '../views/myplan/Plan';
+import Plan from '../views/Plan/Plan';
 
 
 
