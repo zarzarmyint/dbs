@@ -1,0 +1,31 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.signincontainer {
+  width: 100%;
+  height: 100vh;
+  padding: 150px 0px 0px 0px;
+  /* background-color: gray; */
+}
+.signinheader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.signin_infoDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 50px;
+}
+.textinfoDiv a {
+  color: black;
+  font-size: 14px;
+  padding: 20px 0px 0px 0px;
+}
+.signin_vector {
+  width: 400px;
+}

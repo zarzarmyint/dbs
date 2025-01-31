@@ -1,0 +1,27 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.aboutuscontainer {
+  width: 100%;
+  padding: 150px 0px 80px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.aboutus {
+  width: 60%;
+}
+.aboutus h2 {
+  text-align: left;
+  padding-bottom: 20px;
+  /* color: #ff6f3a; */
+}
+.aboutus h3 {
+  padding: 15px 0px;
+}
+.aboutus p {
+  text-align: justify;
+  line-height: 24px;
+}

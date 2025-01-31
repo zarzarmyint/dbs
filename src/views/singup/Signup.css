@@ -1,0 +1,98 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.signupcontainer {
+  width: 100%;
+
+  padding: 150px 0px;
+  /* background-color: gray; */
+}
+.signupheader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.signupheader p {
+  padding: 10px;
+  width: 50%;
+  text-align: center;
+  line-height: 24px;
+}
+
+.accountType {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.accountType input {
+  margin-left: 10px;
+  margin-right: 5px;
+}
+.signupinfoDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 50px;
+}
+.textinfo {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.profileimgDiv {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.profileimg {
+  border: 1px solid rgb(196, 196, 196);
+  width: 300px;
+  height: 300px;
+}
+.customfileupload {
+  /* border: 1px solid gray; */
+  border-radius: 5px;
+  background-color: #ff6f3a;
+  color: white;
+  display: inline-block;
+  padding: 6px 0px;
+  cursor: pointer;
+  width: 202px;
+  text-align: center;
+  margin-top: 10px;
+}
+#fileupload {
+  display: none;
+}
+.clientinfoinput {
+  width: 400px;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+.infoform {
+  display: flex;
+  flex-direction: column;
+}
+.creataccount {
+  background-color: #ff6f3a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 14px;
+}
+.block {
+  display: block;
+}
+.hidden {
+  display: none;
+}

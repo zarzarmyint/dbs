@@ -1,0 +1,88 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.profilecontainer {
+  width: 100%;
+  height: 100vh;
+  padding: 0px 0px 0px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* background-image: url("../../assets/images/homebackground.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+.profileimageDiv {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.profileinfoDiv {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.profileimageDiv img {
+  width: 300px;
+  border-radius: 50%;
+  border: 2px solid gray;
+}
+.photoedit {
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+}
+.photofileupload {
+  /* border: 1px solid gray; */
+  border-radius: 5px;
+  display: inline-block;
+  cursor: pointer;
+  padding-left: 4px;
+  text-align: center;
+  font-size: 12px;
+}
+
+.photoedit p {
+  padding-left: 5px;
+  font-size: 12px;
+  cursor: pointer;
+}
+.infoline {
+  display: flex;
+  flex-direction: row;
+  padding: 8px 0px;
+}
+.infobold {
+  font-weight: bolder;
+}
+.logoutbtn {
+  margin-top: 20px;
+  width: 100px;
+  background-color: #ff6f3a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.myplantbox {
+  cursor: pointer;
+  background-color: hsl(0, 0%, 100%);
+  margin-top: 20px;
+  width: 170px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  align-items: center;
+  color: #ff6f3a;
+  /* border: 1px solid #ff6f3a; */
+}
+.myplantbox a {
+  text-decoration: none;
+  color: #ff6f3a;
+}
