@@ -17,12 +17,12 @@ const SignUp = () => {
 
         <div className="signupinfoDiv">
             <div className="textinfoDiv">
-                <div className="accountType">
+                {/* <div className="accountType">
                     <input type="radio" value="Client" name="accountType" defaultChecked checked={activeDiv === 'client'}
                         onChange={() => setActiveDiv('client')} /> CLIENT
                     <input type="radio" value="Instructor" name="accountType" checked={activeDiv === 'instructor'}
                         onChange={() => setActiveDiv('instructor')} /> INSTRUCTOR
-                </div>
+                </div> */}
                 <div id="clientDiv " className={activeDiv === 'client' ? 'block' : 'hidden'}>
                     <form action="" className="infoform ">
                         <input type="email" placeholder="EMAIL ADDRESS" className="clientinfoinput" />
@@ -32,7 +32,7 @@ const SignUp = () => {
                         <input type="text" placeholder="CURRENT WEIGHT" className="clientinfoinput" />
                         <input type="text" placeholder="CUREENT HEIGHT" className="clientinfoinput" />
                         <input type="date" placeholder="DATE OF BIRTH" className="clientinfoinput" />
-                        <input type="text" placeholder="MEMBER" className="clientinfoinput" />
+
                         <input type="submit" value="CREATE ACCOUNT" className="creataccount" />
                     </form>
                 </div>

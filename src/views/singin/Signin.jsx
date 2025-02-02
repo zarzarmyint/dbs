@@ -21,7 +21,7 @@ const SignIn = () => {
                     <a href="/signup" >CREAT NEW ACCOUNT</a>
 
                     <a href="/profile" >CLIENT (TEMPORARY)</a>
-                    <a href="/instructorprofile" >INSTRUCTOR (TEMPORY)</a>
+                    {/* <a href="/instructorprofile" >INSTRUCTOR (TEMPORY)</a> */}
                     <img src={Vector1} alt="Vector1" className="signin_vector" />
                 </form>
 

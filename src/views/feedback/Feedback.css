@@ -2,3 +2,57 @@
   margin: 0px;
   padding: 0px;
 }
+.feedbackcontainer {
+  width: 100%;
+  padding: 150px 0px 0px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  min-height: 100vh;
+}
+.allfeedbackDiv {
+  width: 30%;
+}
+.feedbackbox {
+  border: 1px solid rgb(214, 214, 214);
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.p1-infb {
+  font-weight: bold;
+  font-size: 14px;
+}
+.p2-infb {
+  font-size: 12px;
+  padding-bottom: 14px;
+}
+.p3-infb {
+  font-size: 14px;
+  padding-bottom: 14px;
+}
+.userfeedbackDiv {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.userfeedbackDiv textarea {
+  width: 80%;
+  height: 105px;
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 14px;
+}
+
+.userfeedbackDiv button {
+  width: 130px;
+  margin-top: 20px;
+  padding: 8px 30px;
+  background-color: #ff6f3a;
+  color: white;
+  border: 1px solid #ff6f3a;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}

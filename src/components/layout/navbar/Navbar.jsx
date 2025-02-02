@@ -4,18 +4,14 @@ import logo from '../../../assets/images/LOGO.png';
 import { FaUserCircle } from "react-icons/fa";
 import './Navbar.css';
 import { useNavigate } from "react-router-dom";
+import SearchBox from "./Searchbox";
 
 const Navbar = () => {
 
     let navigate = useNavigate();
-
-    const signupClick = async () => {
-        navigate('/signup');
-    }
     const signinClick = async () => {
         navigate('/signin');
     }
-
 
     return <nav className="navcontainer">
         <div className="nav">
@@ -25,15 +21,17 @@ const Navbar = () => {
             <div className="menuDiv" >
                 <ul className="menu">
                     <li><a href="/" className={useLocation().pathname === "/" ? "active" : "noactive"} >HOME</a></li>
-                    <li><a href="#"  >MEMBERSHIP</a></li>
-                    <li><a href="/plan" className={useLocation().pathname === "/plan" ? "active" : "noactive"}>PLAN</a></li>
-                    <li><a href="#"  >FEEDBACK</a></li>
+                    {/* <li><a href="#"  >MEMBERSHIP</a></li> */}
+                    <li><a href="/membership" className={useLocation().pathname === "/membership" ? "active" : "noactive"}>MEMBERSHIP</a></li>
+                    <li><a href="feedback" className={useLocation().pathname === "/feedback" ? "active" : "noactive"}>FEEDBACK</a></li>
                     <li><a href="/aboutus" className={useLocation().pathname === "/aboutus" ? "active" : "noactive"}>ABOUTUS</a></li>
                 </ul>
             </div>
 
             <div className="profileDiv">
+                <SearchBox></SearchBox>
                 <div className="singin_upDiv">
+
                     <button onClick={signinClick}>SING IN</button>
                 </div>
                 {/* <a href="/profile"> <FaUserCircle size={30} style={{ cursor: "pointer", color: "#ff6f3a" }}></FaUserCircle></a> */}
