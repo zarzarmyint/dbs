@@ -4,6 +4,7 @@
 }
 .aboutuscontainer {
   width: 100%;
+  min-height: 100vh;
   padding: 150px 0px 80px 0px;
   display: flex;
   flex-direction: column;
