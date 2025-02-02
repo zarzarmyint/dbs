@@ -1,12 +1,13 @@
-import './Profile.css'
-import ProfileImage from '../../assets/images/profileimage.jpg';
+import React from "react";
+import '../profile/Profile.css';
+import InProfileImage from '../../assets/images/InProfile.jpg';
 import { FaListCheck, FaCamera } from 'react-icons/fa6';
 
+const InstructorProfile = () => {
 
-const Profile = () => {
     return <div className='profilecontainer'>
         <div className="profileimageDiv">
-            <img src={ProfileImage} alt="profileimage" />
+            <img src={InProfileImage} alt="profileimage" />
             <div className='photoedit'>
                 <FaCamera for="fileuploads"></FaCamera>
                 <label for="fileupload" className="photofileupload">Edit photo</label>
@@ -14,28 +15,25 @@ const Profile = () => {
             </div>
         </div>
         <div className="profileinfoDiv">
-            <h2>Alice May</h2>
+            <h2>John Peter</h2>
             <br />
             <div className='infoline'>
                 <p>Eamil:</p>
-                <p className='infobold'>alicemay2025@gmail.com</p>
+                <p className='infobold'>johnpeter2025@gmail.com</p>
             </div>
             <div className='infoline'>
-                <p>Height:</p>
-                <p className='infobold'>172 cm</p>
+                <p>Role:</p>
+                <p className='RoleType'>172 cm</p>
             </div>
             <div className='infoline'>
-                <p>Weight:</p>
-                <p className='infobold'>50 kg</p>
+                <p>Qualification:</p>
+                <p className='Qualificaton type'>50 kg</p>
             </div>
             <div className='infoline'>
-                <p >Date of birth:</p>
-                <p className='infobold'>January 1, 2000</p>
+                <p >Specialization</p>
+                <p className='infobold'>Specialization Type</p>
             </div>
-            <div className='infoline'>
-                <p>Membership:</p>
-                <p className='infobold'>Membertype</p>
-            </div>
+
             <div className='infoline'>
                 <p>Create date:</p>
                 <p className='infobold'>January 1, 2025</p>
@@ -55,5 +53,6 @@ const Profile = () => {
 
         </div>
     </div>
+
 }
-export default Profile;
+export default InstructorProfile;

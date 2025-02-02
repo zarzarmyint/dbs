@@ -19,11 +19,17 @@ const SignIn = () => {
                     <input type="password" placeholder="PASSWORD" className="clientinfoinput" />
                     <input type="submit" value="SIGN IN" className="creataccount" />
                     <a href="/signup" >CREAT NEW ACCOUNT</a>
+
+                    <a href="/profile" >CLIENT (TEMPORARY)</a>
+                    <a href="/instructorprofile" >INSTRUCTOR (TEMPORY)</a>
                     <img src={Vector1} alt="Vector1" className="signin_vector" />
                 </form>
 
+
             </div>
+
         </div>
+
     </div>
 }
 export default SignIn;

@@ -8,6 +8,8 @@ import SignIn from '../views/singin/Signin';
 import AboutUs from '../views/aboutus/Aboutus';
 import Profile from '../views/profile/Profile';
 import Plan from '../views/Plan/Plan';
+import InstructorProfile from '../views/instructorprofile/Instructorprofile';
+
 
 
 
@@ -25,6 +27,7 @@ const AppRoutes = () => {
                         <Route path="/aboutus" element={<AboutUs></AboutUs>}></Route>
                         <Route path="/profile" element={<Profile></Profile>}></Route>
                         <Route path="/plan" element={<Plan></Plan>}></Route>
+                        <Route path="/instructorprofile" element={<InstructorProfile></InstructorProfile>}></Route>
                     </Routes>
                 </main>
 

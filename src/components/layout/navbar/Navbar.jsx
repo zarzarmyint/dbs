@@ -36,7 +36,7 @@ const Navbar = () => {
                 <div className="singin_upDiv">
                     <button onClick={signinClick}>SING IN</button>
                 </div>
-                <a href="/profile"> <FaUserCircle size={30} style={{ cursor: "pointer", color: "#ff6f3a" }}></FaUserCircle></a>
+                {/* <a href="/profile"> <FaUserCircle size={30} style={{ cursor: "pointer", color: "#ff6f3a" }}></FaUserCircle></a> */}
             </div>
         </div>
 
