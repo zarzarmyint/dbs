@@ -5,6 +5,7 @@ const DietPlanUpload = () => {
     const [title, setTitle] = useState('');
     const [days, setDays] = useState(1);
     const [dietPlan, setDietPlan] = useState([]);
+    const [price, setPrice] = useState('');
 
     const createDietPlan = () => {
         const newDietPlan = Array.from({ length: days }, (_, dayIndex) => ({
@@ -20,6 +21,7 @@ const DietPlanUpload = () => {
         setDietPlan([]);
         setTitle("");
         setDays("");
+        setPrice("");
     }
 
     const saveplan = () => {
@@ -58,7 +60,7 @@ const DietPlanUpload = () => {
                     type="text"
                     placeholder="Price"
                     value={title}
-                    onChange={(e) => setTitle(e.target.value)}
+                    onChange={(e) => setPrice(e.target.value)}
                     className="diet-input title-input"
                 />
                 <button onClick={createDietPlan} className="create-btn">CREATE PLAN</button>
