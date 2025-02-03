@@ -43,7 +43,7 @@ const Profile = () => {
             <div className='infoline myplantbox'>
                 {/* <button className='myplantbtn'>MY PLAN</button> */}
                 <FaListCheck size={20} style={{ color: "#ff6f3a", paddingRight: "10px" }}></FaListCheck>
-                <a href="#" >MY PLAN</a>
+                <a href="/myplan" >MY PLAN</a>
             </div>
             <div className='infoline'>
                 <button className='logoutbtn'>LOGOUT</button>

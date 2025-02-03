@@ -54,6 +54,13 @@ const DietPlanUpload = () => {
                     min="1"
                     className="diet-input days-input"
                 />
+                <input
+                    type="text"
+                    placeholder="Price"
+                    value={title}
+                    onChange={(e) => setTitle(e.target.value)}
+                    className="diet-input title-input"
+                />
                 <button onClick={createDietPlan} className="create-btn">CREATE PLAN</button>
             </div>
 

@@ -1,0 +1,78 @@
+.tracker-container {
+  max-width: 1000px;
+  min-height: 100vh;
+  margin: 0px auto;
+  padding: 20px;
+  padding-top: 150px;
+  background: #fff;
+  border-radius: 10px;
+}
+
+.tracker-container h4 {
+  padding: 10px 0px;
+}
+.tracker-title {
+  text-align: center;
+  color: #2c3e50;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+.meal-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+}
+
+.meal-table th,
+.meal-table td {
+  padding: 12px 15px;
+  text-align: left;
+  border: 1px solid #e0e0e0;
+}
+
+.meal-table th {
+  background: #f8f9fa;
+  color: #2c3e50;
+  font-weight: 600;
+}
+
+.meal-table tr:hover {
+  background-color: #f5f6f7;
+}
+
+.completed-row {
+  background-color: #e8f5e9;
+}
+
+.completed-row:hover {
+  background-color: #c8e6c9;
+}
+
+.checkbox-cell {
+  text-align: center;
+}
+
+.status-checkbox {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  accent-color: #4caf50;
+}
+
+@media (max-width: 768px) {
+  .tracker-container {
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .meal-table th,
+  .meal-table td {
+    padding: 8px;
+    font-size: 14px;
+  }
+}

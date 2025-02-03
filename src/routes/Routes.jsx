@@ -12,6 +12,7 @@ import FeedBack from '../views/feedback/Feedback';
 import DietPlanUpload from '../views/instructorprofile/dietplanupload/Dietplanupload';
 import DietPlanList from '../views/instructorprofile/dietplanlist/DietPlanList';
 import BuyDietPlan from '../views/buydietplan/Buydietplan';
+import MyPlan from '../views/myplan/Myplan';
 
 
 const AppRoutes = () => {
@@ -33,6 +34,7 @@ const AppRoutes = () => {
                         <Route path="/dietplanupload" element={<DietPlanUpload></DietPlanUpload>}></Route>
                         <Route path="/dietplanlist" element={<DietPlanList></DietPlanList>}></Route>
                         <Route path="/buydietplan" element={<BuyDietPlan></BuyDietPlan>}></Route>
+                        <Route path="/myplan" element={<MyPlan></MyPlan>}></Route>
                     </Routes>
                 </main>
 
