@@ -59,7 +59,7 @@ const DietPlanUpload = () => {
                 <input
                     type="text"
                     placeholder="Price"
-                    value={title}
+                    value={price}
                     onChange={(e) => setPrice(e.target.value)}
                     className="diet-input title-input"
                 />
