@@ -6,13 +6,19 @@ import Workoutplan from '../../assets/images/Workout.jpg';
 import DietandWorkoutplan from '../../assets/images/dietandworkout.jpg';
 
 
+
 const MemberShip = () => {
+
+    let navigate = useNavigate();
+    const dietplanClick = async () => {
+        navigate('/buydietplan');
+    }
 
     return <div className="plancontainer">
         <h2 className="planheader">YOU CAN CHOOSE ANY PLAN TYPE</h2>
         <div className="plan">
             <div className="planbox">
-                <img src={Dietplan} alt="Dietplan" className="planimagebox" />
+                <img src={Dietplan} alt="Dietplan" className="planimagebox" onClick={dietplanClick} />
                 <p className="planpg">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
             </div>
             <div className="planbox">

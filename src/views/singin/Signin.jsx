@@ -18,14 +18,12 @@ const SignIn = () => {
                     <input type="text" placeholder="NAME" className="clientinfoinput" />
                     <input type="password" placeholder="PASSWORD" className="clientinfoinput" />
                     <input type="submit" value="SIGN IN" className="creataccount" />
-                    <a href="/signup" >CREAT NEW ACCOUNT</a>
+                    <a href="/signup" >CREATE NEW ACCOUNT</a>
 
                     <a href="/profile" >CLIENT (TEMPORARY)</a>
-                    {/* <a href="/instructorprofile" >INSTRUCTOR (TEMPORY)</a> */}
+                    <a href="/instructorprofile" >INSTRUCTOR (TEMPORY)</a>
                     <img src={Vector1} alt="Vector1" className="signin_vector" />
                 </form>
-
-
             </div>
 
         </div>

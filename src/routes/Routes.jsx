@@ -9,8 +9,9 @@ import Profile from '../views/profile/Profile';
 import InstructorProfile from '../views/instructorprofile/Instructorprofile';
 import MemberShip from '../views/membership/Membership';
 import FeedBack from '../views/feedback/Feedback';
-
-
+import DietPlanUpload from '../views/instructorprofile/dietplanupload/Dietplanupload';
+import DietPlanList from '../views/instructorprofile/dietplanlist/DietPlanList';
+import BuyDietPlan from '../views/buydietplan/Buydietplan';
 
 
 const AppRoutes = () => {
@@ -29,6 +30,9 @@ const AppRoutes = () => {
                         <Route path="/membership" element={<MemberShip></MemberShip>}></Route>
                         <Route path="/instructorprofile" element={<InstructorProfile></InstructorProfile>}></Route>
                         <Route path="/feedback" element={<FeedBack></FeedBack>}></Route>
+                        <Route path="/dietplanupload" element={<DietPlanUpload></DietPlanUpload>}></Route>
+                        <Route path="/dietplanlist" element={<DietPlanList></DietPlanList>}></Route>
+                        <Route path="/buydietplan" element={<BuyDietPlan></BuyDietPlan>}></Route>
                     </Routes>
                 </main>
 
