@@ -34,12 +34,9 @@ const Profile = () => {
             </div>
             <div className='infoline'>
                 <p>Membership:</p>
-                <p className='infobold'>Membertype</p>
+                <p className='infobold'>Deit Plan Member</p>
             </div>
-            <div className='infoline'>
-                <p>Create date:</p>
-                <p className='infobold'>January 1, 2025</p>
-            </div>
+
             <div className='infoline myplantbox'>
                 {/* <button className='myplantbtn'>MY PLAN</button> */}
                 <FaListCheck size={20} style={{ color: "#ff6f3a", paddingRight: "10px" }}></FaListCheck>
@@ -47,6 +44,9 @@ const Profile = () => {
             </div>
             <div className='infoline'>
                 <button className='logoutbtn'>LOGOUT</button>
+            </div>
+            <div className='infoline'>
+                <button className='deletebtn'>DELETE MEMBERSHIP</button>
             </div>
             {/* <input type="email" placeholder="EMAIL ADDRESS" className="clientinfoinput" />
             <input type="text" placeholder="CUREENT HEIGHT" className="clientinfoinput" />

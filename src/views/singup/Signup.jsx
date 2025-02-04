@@ -11,8 +11,6 @@ const SignUp = () => {
     return <div className="signupcontainer">
         <div className="signupheader">
             <h2>SING UP</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s and industry. </p>
-
         </div>
 
         <div className="signupinfoDiv">

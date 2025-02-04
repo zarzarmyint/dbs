@@ -24,15 +24,16 @@ const Navbar = () => {
                     {/* <li><a href="#"  >MEMBERSHIP</a></li> */}
                     <li><a href="/membership" className={useLocation().pathname === "/membership" ? "active" : "noactive"}>MEMBERSHIP</a></li>
                     <li><a href="feedback" className={useLocation().pathname === "/feedback" ? "active" : "noactive"}>FEEDBACK</a></li>
+                    <li><a href="/instructorprofile" className={useLocation().pathname === "/aboutus" ? "active" : "noactive"}>INSTRUCTOR</a></li>
                     <li><a href="/aboutus" className={useLocation().pathname === "/aboutus" ? "active" : "noactive"}>ABOUTUS</a></li>
                 </ul>
             </div>
 
             <div className="profileDiv">
-                <SearchBox></SearchBox>
+                <input type="text" placeholder="search..." className="searchboxinput" />
+                {/* <SearchBox></SearchBox> */}
                 <div className="singin_upDiv">
-
-                    <button onClick={signinClick}>SING IN</button>
+                    <button onClick={signinClick}>SIGN IN</button>
                 </div>
                 {/* <a href="/profile"> <FaUserCircle size={30} style={{ cursor: "pointer", color: "#ff6f3a" }}></FaUserCircle></a> */}
             </div>

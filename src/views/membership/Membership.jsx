@@ -19,15 +19,15 @@ const MemberShip = () => {
         <div className="plan">
             <div className="planbox">
                 <img src={Dietplan} alt="Dietplan" className="planimagebox" onClick={dietplanClick} />
-                <p className="planpg">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+
             </div>
             <div className="planbox">
                 <img src={Workoutplan} alt="Dietplan" className="planimagebox" />
-                <p className="planpg">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+
             </div>
             <div className="planbox">
                 <img src={DietandWorkoutplan} alt="Dietplan" className="planimagebox" />
-                <p className="planpg">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+
             </div>
         </div>
 

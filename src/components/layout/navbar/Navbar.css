@@ -82,3 +82,10 @@
   color: #ff6f3a;
   border: 1px solid #ff6f3a;
 }
+.searchboxinput {
+  padding: 11px 10px;
+  border: none;
+  border-radius: 1px solid gray;
+  border-radius: 5px;
+  background-color: rgb(234, 234, 234);
+}

@@ -31,3 +31,9 @@
   color: white;
   font-size: 16px;
 }
+.inprofile {
+  padding-top: 20px;
+}
+.inprofile img {
+  width: 150px;
+}
