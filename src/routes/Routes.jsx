@@ -15,6 +15,9 @@ import BuyDietPlan from '../views/buydietplan/Buydietplan';
 import MyPlan from '../views/myplan/Myplan';
 import SignUpForm from '../views/signup_form/Signupform';
 import Progress from '../views/progress/Progress';
+import WorkoutPlanUpload from '../views/instructorprofile/workoutupload/Workoutupload';
+import WorkoutPlanList from '../views/instructorprofile/workoutplanlist/Workoutplanlist';
+import MemberLevel from '../views/instructorprofile/memberlevel/Memberlevel';
 
 
 const AppRoutes = () => {
@@ -38,6 +41,11 @@ const AppRoutes = () => {
                         <Route path="/buydietplan" element={<BuyDietPlan></BuyDietPlan>}></Route>
                         <Route path="/myplan" element={<MyPlan></MyPlan>}></Route>
                         <Route path="/progress" element={<Progress></Progress>}></Route>
+                        <Route path="/workoutplanupload" element={<WorkoutPlanUpload></WorkoutPlanUpload>}></Route>
+                        <Route path="/workoutplanlist" element={<WorkoutPlanList></WorkoutPlanList>}></Route>
+                        <Route path="/memberlevel" element={<MemberLevel></MemberLevel>}></Route>
+
+
                         {/* <Route path="/signupform" element={<SignUpForm></SignUpForm>}></Route> */}
                     </Routes>
                 </main>

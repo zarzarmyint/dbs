@@ -13,6 +13,12 @@ const InstructorProfile = () => {
             <button>
                 <a href="/dietplanupload"> DIET PLAN UPLOAD</a>
             </button>
+            <button>
+                <a href="/workoutplanupload"> WORKOUT PLAN UPLOAD</a>
+            </button>
+            <button>
+                <a href="/memberlevel"> MEMBER LEVEL</a>
+            </button>
             <div className="inprofile">
                 <img src={InProfile3} alt="profileimage" />
                 <h3>BURNTASTIC</h3>

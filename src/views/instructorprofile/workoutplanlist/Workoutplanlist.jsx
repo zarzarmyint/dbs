@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import './DietPlanList.css';
+import './Workoutplanlist.css';
 
-const DietPlanList = () => {
+const WorkoutPlanList = () => {
     const [plans, setPlans] = useState([
-        { id: 1, title: 'Summer Body Diet', price: '100', days: 30 },
-        { id: 2, title: 'Weight Loss Plan', price: '100', days: 45 },
-        { id: 3, title: 'Muscle Gain Diet', price: '100', days: 60 }
+        { id: 1, title: 'Summer Body Workout', price: '100', days: 30 },
+        { id: 2, title: 'Weight Loss Workout', price: '100', days: 45 },
+        { id: 3, title: 'Muscle Gain Workout', price: '100', days: 60 }
     ]);
 
     const handleDelete = (id) => {
@@ -14,7 +14,7 @@ const DietPlanList = () => {
 
     return (
         <div className="diet-plan-list-container">
-            <h2 className="diet-plan-list-title">DIET PLAN</h2>
+            <h2 className="diet-plan-list-title">WORKOUT PLAN</h2>
             {plans.length === 0 ? (
                 <p className="no-plans-message">No diet plans available</p>
             ) : (
@@ -50,4 +50,4 @@ const DietPlanList = () => {
     );
 };
 
-export default DietPlanList;
+export default WorkoutPlanList;

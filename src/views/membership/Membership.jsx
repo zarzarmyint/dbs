@@ -14,6 +14,10 @@ const MemberShip = () => {
         navigate('/buydietplan');
     }
 
+    const workoutplanClcik = async () => {
+        navigate('/buyworkoutplan');
+    }
+
     return <div className="plancontainer">
         <h2 className="planheader">YOU CAN CHOOSE ANY PLAN TYPE</h2>
         <div className="plan">
@@ -22,7 +26,7 @@ const MemberShip = () => {
 
             </div>
             <div className="planbox">
-                <img src={Workoutplan} alt="Dietplan" className="planimagebox" />
+                <img src={Workoutplan} alt="Dietplan" className="planimagebox" onClick={workoutplanClcik} />
 
             </div>
             <div className="planbox">
