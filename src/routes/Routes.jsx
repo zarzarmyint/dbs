@@ -14,6 +14,7 @@ import DietPlanList from '../views/instructorprofile/dietplanlist/DietPlanList';
 import BuyDietPlan from '../views/buydietplan/Buydietplan';
 import MyPlan from '../views/myplan/Myplan';
 import SignUpForm from '../views/signup_form/Signupform';
+import Progress from '../views/progress/Progress';
 
 
 const AppRoutes = () => {
@@ -36,6 +37,7 @@ const AppRoutes = () => {
                         <Route path="/dietplanlist" element={<DietPlanList></DietPlanList>}></Route>
                         <Route path="/buydietplan" element={<BuyDietPlan></BuyDietPlan>}></Route>
                         <Route path="/myplan" element={<MyPlan></MyPlan>}></Route>
+                        <Route path="/progress" element={<Progress></Progress>}></Route>
                         {/* <Route path="/signupform" element={<SignUpForm></SignUpForm>}></Route> */}
                     </Routes>
                 </main>

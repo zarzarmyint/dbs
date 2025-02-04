@@ -1,0 +1,67 @@
+.weight-tracker-container {
+  max-width: 600px;
+  min-height: 100vh;
+
+  margin: 0 auto;
+  padding: 20px;
+  padding: 150px;
+  font-family: Arial, sans-serif;
+}
+
+.input-section {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+  align-items: flex-end;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.input-group input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.readonly-input {
+  background-color: #f0f0f0;
+  cursor: not-allowed;
+}
+
+.addentry {
+  border-radius: 5px;
+  background-color: #ff6f3a;
+  color: white;
+  display: inline-block;
+  padding: 10px 0px;
+  cursor: pointer;
+  width: 100px;
+  text-align: center;
+  margin-top: 10px;
+  border: none;
+}
+
+.weight-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.weight-table th,
+.weight-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.weight-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}

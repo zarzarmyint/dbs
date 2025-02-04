@@ -24,7 +24,8 @@ const Navbar = () => {
                     {/* <li><a href="#"  >MEMBERSHIP</a></li> */}
                     <li><a href="/membership" className={useLocation().pathname === "/membership" ? "active" : "noactive"}>MEMBERSHIP</a></li>
                     <li><a href="feedback" className={useLocation().pathname === "/feedback" ? "active" : "noactive"}>FEEDBACK</a></li>
-                    <li><a href="/instructorprofile" className={useLocation().pathname === "/aboutus" ? "active" : "noactive"}>INSTRUCTOR</a></li>
+                    <li><a href="/instructorprofile" className={useLocation().pathname === "/instructorprofile" ? "active" : "noactive"}>INSTRUCTOR</a></li>
+                    <li><a href="/progress" className={useLocation().pathname === "/progress" ? "active" : "noactive"}>PROGRESS</a></li>
                     <li><a href="/aboutus" className={useLocation().pathname === "/aboutus" ? "active" : "noactive"}>ABOUTUS</a></li>
                 </ul>
             </div>

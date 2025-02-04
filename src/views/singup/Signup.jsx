@@ -10,7 +10,7 @@ const SignUp = () => {
 
     return <div className="signupcontainer">
         <div className="signupheader">
-            <h2>SING UP</h2>
+            <h2>SIGN UP</h2>
         </div>
 
         <div className="signupinfoDiv">
